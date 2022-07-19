@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-image: url(imagem/procedimentos-esteticos-inverno.jpg);
+    background-color: #D5C2B6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgba(0, 0, 0, 0.562);
+    height: 630px;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.589);
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
+}
+
+header h1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;   
+    font-size: 4vw;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
+    
+
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.youtube-ico {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    padding: 0; 
+}
+.instagram-ico {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    padding: 0; 
+}
+.facebook-ico {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    padding: 0; 
+}
+.whatsapp-ico {
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    padding: 0; 
+}
+
+.menu {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 30px;
+    font-size: 1vw;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    
+}
+
+ .menu a {
+    
+    text-decoration: none;
+    margin: 10px;
+    padding: 0px 20px 5px 20px;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: 1000;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.144);
+    
+    
+}
+
+.especial:hover {
+    border-bottom: 4px solid #ffc0cb;
+}
+
+
+
+nav p {
+    color: rgba(0, 0, 0, 0.705);
+    font-weight:1000;
+    font-size: 30px;
+    padding-bottom: 3px;        
+}
+nav img {
+   position: absolute;
+   left:0;
+   padding-left: 40vw;
+   padding-top: 20px ;
+   
+}
+
+main {
+    height: 560px;
+    background-color: #F2F2F2;
+    font-size: 250%;
+    text-align: center;
+    padding: 120px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+
+}
+
+main h1 {
+    font-family: 'Josefin Slab', serif;
+    
+}
+
+.comp-h1 {
+    font-family: 'Josefin Slab', serif;
+    color: #1f851f;
+}
+main p {
+    font-family: 'Josefin Slab', serif;
+    padding-top: 30px;
+    color: black;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    z-index: 1;
+    height: 40%;
+    width: 25%;
+    background-color: #866860;
+    border-radius: 0px 40px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    position: absolute;
+    top: 168%;
+    cursor: pointer
+    
+    
+}
+
+#card1 {
+    left: 10%;
+    background-image: url(imagem/crio-foto.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+#card2 {
+    left: 37.5%;
+    background-image: url(imagem/Harmonizacao-corporal-bumbum.webp);
+    background-size: cover;
+    
+}
+#card3 {
+    left: 65%;
+    background-image: url(imagem/pexels-sora-shimazaki-5938632.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+    
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 800px;
+    background-color: #D5C2B6;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+}
+.cardcomp {
+    border: 2px dashed white;
+    height: 60%;
+    width: 25%;
+    margin-bottom: 40px;
+    
+
+}
+
+.cardcomp p {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-weight: 800;
+    
+}
+
+.card h2 {
+    font-family: 'Josefin Slab', serif;
+    color: aliceblue;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    height: 100px;
+    background-color: #F2F2F2;
+    
+}
+footer p {
+    text-decoration: underline;
+    
+}
+
+footer a {
+    color: black;
+}
